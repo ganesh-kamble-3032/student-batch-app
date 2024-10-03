@@ -1,0 +1,7 @@
+<h2>Student List</h2>
+<ul class="student-list">
+  <li *ngFor="let student of students">
+    <a [routerLink]="['/students', student.id]">{{ student.name }}</a>
+    (Batch: {{ student.batch }})
+  </li>
+</ul>

@@ -1,0 +1,37 @@
+/* Styling the Batch List title */
+h2 {
+  color: #333;
+  text-align: left;
+  margin-bottom: 15px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Styling the batch list container */
+ul.batch-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling each list item */
+ul.batch-list li {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the batch name link */
+ul.batch-list li a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Hover effect for the batch link */
+ul.batch-list li a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

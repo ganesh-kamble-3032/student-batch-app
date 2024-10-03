@@ -1,0 +1,30 @@
+/* Styling the Batch Detail title */
+h2 {
+  color: #333;
+  text-align: left;
+  margin-bottom: 15px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Styling the batch detail container */
+.batch-detail {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Styling the text within the batch details */
+.batch-detail p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Adding emphasis to labels (Batch Name) */
+.batch-detail p strong {
+  color: #333;
+  font-weight: bold;
+}

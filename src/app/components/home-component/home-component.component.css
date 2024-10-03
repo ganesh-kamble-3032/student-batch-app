@@ -1,0 +1,62 @@
+/* src/styles.css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+} */
+
+/* Global styles for body and links */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Styling the header and navigation */
+h1 {
+  color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #007bff;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #0056b3;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #003f7f;
+}

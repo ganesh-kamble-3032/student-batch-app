@@ -1,0 +1,21 @@
+/* Styling the router outlet container */
+.router-container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+}
+
+/* Adding padding to the content rendered inside the router-outlet */
+.router-container > * {
+  padding: 20px;
+}
+
+/* Optional: Center-align content and set maximum width */
+.router-container {
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+}
